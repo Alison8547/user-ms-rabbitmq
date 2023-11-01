@@ -25,7 +25,7 @@ public class User implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID idUser;
 
-    @Column(name = "name")
+    @Column(name = "name_user")
     private String name;
 
     @Column(name = "email")
