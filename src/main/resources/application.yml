@@ -21,3 +21,10 @@ spring:
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  rabbitmq:
+    addresses: ${RABBIT_URL}
+  broker:
+    queue:
+      email:
+        name: default.email
