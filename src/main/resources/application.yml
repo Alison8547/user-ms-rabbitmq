@@ -24,7 +24,7 @@ spring:
 
   rabbitmq:
     addresses: ${RABBIT_URL}
-  broker:
-    queue:
-      email:
-        name: default.email
+broker:
+  queue:
+    email:
+      name: default.email
