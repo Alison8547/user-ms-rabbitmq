@@ -9,7 +9,7 @@ import java.util.UUID;
 @Setter
 public class EmailDto {
 
-    private UUID userId;
+    private UUID idUser;
     private String emailTo;
     private String subject;
     private String text;

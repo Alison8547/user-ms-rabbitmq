@@ -19,7 +19,7 @@ public class UserProducer {
 
     public void publishMessageEmail(User user) {
         var emailDto = new EmailDto();
-        emailDto.setUserId(user.getIdUser());
+        emailDto.setIdUser(user.getIdUser());
         emailDto.setEmailTo(user.getEmail());
         emailDto.setSubject("Registration completed successfully!");
         emailDto.setText(user.getName() + ", welcome thank you for registering in the system!");
